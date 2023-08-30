@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.allheader{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ad0f14;
+    height: 49px;
+    margin-top: 25px;
+}
+
+
+.allheader .logo{
+    position: absolute;
+    top: 0px;
+    width: 170px;
+}
+
+.allheader .logo img{
+    width: 100%;
+}
+
+.allheader  .nav {
+    position: absolute;
+    right: 73px;
+   
+    top: 38px;
+}
+.allheader  .nav ul{
+    display: flex;
+    list-style: none;
+}
+
+.allheader  .nav ul li{
+    margin-right: 10px;
+    color: white;
+    transform: rotate(0deg);
+    transition: 0.8s all;
+}
+
+.allheader .nav ul li:hover{
+    color:#650c0f ;
+    transform: rotate(360deg);
+
+}   
+
+#promocode{
+    padding: 8px;
+    background-color: rgb(234, 228, 228);
+}
+
+#promocode .container .row .promo{
+    text-align: center;
+}
+
+
+#promocode .container .row .promo input{
+    width: 100%;
+    background: #ffffff;
+    border: 1px solid #0F9675;
+    border-radius: 8px;
+    height: 28px;
+    color: #000000;
+    font-size: 10px;
+    width: 113px;
+    padding: 0 10px;
+}
+
+
+#promocode .container .row .promo button{
+      padding: 5px 13px;
+    background: #0F9675;
+    border-radius: 24%;
+    color: white;
+    border: none;
+}
+
+#promocode .container .row .promo span{
+    color: #0F9675;
+}
+
+
+
+#allprodoct .container .prodoctimage .prodocts{
+    width: 100%;
+    display: flex;
+}
+
+#allprodoct .container .prodoctimage .prodocts .pradoct{
+    width: 300px;
+    margin: 10px;
+
+}
+
+#allprodoct .container .prodoctimage .prodocts .pradoct img{
+    width: 100%;
+}
